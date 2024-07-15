@@ -1,0 +1,77 @@
+/*START SLOT ICONS HERE*/
+
+html {
+    padding-top: 2rem;
+    align-items: center;
+}
+
+[data-icon] {
+    background-image: url('../img/slotMachineIcons.jpg');
+    background-repeat: no-repeat;
+    padding: 5px;
+    margin: 0px 5px;
+    display: inline-block;
+    height: 88px;
+    width: 88px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+[data-icon='cherry'] {
+    background-position: -23px -5px;
+}
+
+[data-icon='lemon'] {
+    background-position: -142px -5px;
+}
+
+[data-icon='watermelon'] {
+    background-position: -261px -5px;
+}
+
+[data-icon='bell'] {
+    background-position: -33px -110px;
+}
+
+[data-icon='bar'] {
+    background-position: -142px -110px;
+}
+
+[data-icon='heart'] {
+    background-position: -261px -110px;
+}
+
+[data-icon='purple'] {
+    background-position: -23px -230px;
+}
+
+[data-icon='clover'] {
+    background-position: -142px -230px;
+}
+
+[data-icon='orange'] {
+    background-position: -265px -230px;
+}
+
+[data-icon='horseshoe'] {
+    background-position: -34px -350px;
+}
+
+[data-icon='grapes'] {
+    background-position: -147px -350px;
+}
+
+[data-icon='apple'] {
+    background-position: -265px -350px;
+}
+
+[data-icon='diamond'] {
+    background-position: -85px -463px;
+}
+
+[data-icon='diamond'] {
+    background-position: -85px -463px;
+}
+
+[data-icon='dollars'] {
+    background-position: -200px -467px;
+}

@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Slot Machine</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/brands.css" rel="stylesheet" />
+    <link href="https://bootswatch.com/5/spacelab/bootstrap.css" rel="stylesheet" id="themedStyle">
+    <link rel="stylesheet" href="css/style.css" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JJWFFXF8G0"></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 mb-2  animated fadeInDown">
+
+
+                <button class="btn btn-success btn-block btn-lg p-2" title="START" onClick="javascript:checkRandom(true)" align="center">START</button>
+
+                <button class="btn btn-danger btn-block  btn-lg  p-2 hide" title="Stop" onClick="javascript:checkRandom(false)">Stop</button>
+
+            </div>
+            <div class="col-md-12">
+                <div class="alert alert-info" role="alert">
+                    <h1>Balance: $<span id="balanceTarget"></span></h1>
+                </div>
+            </div>
+            <div class="col-md-12 hide" data-hide="1">
+
+                <div class="alert alert-secondary" role="alert" data-iconsum>
+                    <h1><span id="iconSum"></span> </h1>
+                </div>
+            </div>
+            <div class="col-md-12">
+
+                <div class="alert alert-light d-flex justify-content-center hide" role="alert">
+                    <span class="p-2" id="iconTarget"></span>
+                </div>
+            </div>
+            <div class="col-md-12 hide" data-hide="2">
+                <div class="alert alert-light" role="alert">
+                    <ul class="list-group" id="winningDetails"></ul>
+                </div>
+            </div>
+
+            <div class="col-md-12 py-2">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Slot rules:</h5>
+                        <p>Click the "START" button to start the game. Click the "STOP" button to get the result.</p>
+                        <p>Any Extra = $50</p>
+                        <p>Extra Dollars & Heart = $100</p>
+                        <p>Extra Horseshoe = $150</p>
+                        <p>Extra Diamond = $250</p>
+                        <p>Bell = -$100</p>
+                        <p>Bar = -$150</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    </footer>
+
+</body>
+<script src="https://aaronrs2002.github.io/black-jack/js/footer.js"></script>
+<script src="js/icons.js"></script>
+<script src="js/functionality.js"></script>
+
+
+</html>
